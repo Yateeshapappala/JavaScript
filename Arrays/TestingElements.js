@@ -1,10 +1,11 @@
 const numbers = [1,2,3,-1];
 
-const allPositive = numbers.every( ///here every function used to check every element in the array
-    function(value){
-    return value >= 0;
-}
-)
+// const allPositive = numbers.every( ///here every function used to check every element in the array
+//     function(value){
+//     return value >= 0;
+// }
+// )
+const allPositive = numbers.every((value) => value>=0);
 
 //here once it gets < 0 value it terminates and gives the false 
 
